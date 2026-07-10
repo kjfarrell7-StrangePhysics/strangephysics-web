@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 2: Dynamics | AP Physics 1</title>
+    <style>
+        :root {
+            --space-bg: #0b0c10;
+            --panel-bg: #1f2833;
+            --neon-blue: #45f3ff;
+            --text-light: #c5c6c7;
+            --text-bright: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--space-bg);
+            color: var(--text-light);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1f2833 0%, #0b0c10 100%);
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 2px solid var(--neon-blue);
+        }
+
+        h1 {
+            color: var(--text-bright);
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            color: var(--neon-blue);
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: var(--text-light);
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--neon-blue);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background-color: var(--panel-bg);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            border-left: 4px solid var(--neon-blue);
+        }
+
+        h2 {
+            color: var(--text-bright);
+            margin-top: 0;
+        }
+
+        .formula-box {
+            background-color: rgba(11, 12, 16, 0.6);
+            border: 1px dashed var(--neon-blue);
+            padding: 1rem;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            color: var(--neon-blue);
+            margin: 1rem 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background: transparent;
+            color: var(--neon-blue);
+            border: 2px solid var(--neon-blue);
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--neon-blue);
+            color: var(--space-bg);
+            box-shadow: 0 0 15px var(--neon-blue);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Unit 2: Dynamics</h1>
+        <div class="subtitle">Systems, Forces, and Newton's Laws</div>
+        <nav>
+            <a href="index.html">← Course Home</a> | 
+            <a href="unit-1-kinematics.html">Unit 1: Kinematics</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>The Core Framework: Systems & Interactions</h2>
+            <p>In dynamics, we transition from describing <em>how</em> objects move to investigating <em>why</em> they change their state of motion. The foundational step in any complex physics problem is isolating our system of interest and analyzing its external constraints.</p>
+            
+            <div class="formula-box">
+                Newton's Second Law (Vector Notation):<br>
+                ΣF = m * a
+            </div>
+            <p>When modeling systems computationally, we treat complex structures as networks of simpler particles interacting via internal forces, while external forces dictate the system's net center-of-mass acceleration.</p>
+        </section>
+
+        <section class="card">
+            <h2>Interactive Inquiry Exploration</h2>
+            <p><strong>Inquiry Challenge:</strong> How does an unexpected friction coefficient alter a predictive computational model? Consider how micro-interactions aggregate into macro-scale resistance rules.</p>
+            <p>Use the simulator setup below to test variations in mass distributions and external force vectors.</p>
+            <a href="#" class="btn">Launch Forces Simulation</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AP Physics Classroom. Designed for Deep Conceptual Exploration.</p>
+    </footer>
+
+</body>
+</html>
